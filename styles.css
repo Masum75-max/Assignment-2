@@ -87,23 +87,27 @@ nav button:hover{
 /* banner-section */
 
 .banner{
+  border: 2px solid red;
   margin-top: 15vh;
   height: 95vh;
   width:98vw;
 }
 .banner .banner-image{
+  border: 2px solid red;
   height:60%;
   width:100%;
 }
 
 .hero-bg{
+  border: 2px solid red;
   height: 100%;
   width:100%;
 }
 #hero-circle{
+  border: 2px solid red;
   position:absolute;
-  right: 35vw;
-  top:18vh;
+  right: 35%;
+  top:19vh;
   width: 30%;
 }
 
@@ -129,7 +133,9 @@ nav button:hover{
   display: inline;
 }
 #hero-circle{
-  top:35vh;
+  border: 2px solid red;
+  top:35%;
+  right:35%;
 }
 
   
