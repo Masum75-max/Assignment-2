@@ -1,0 +1,112 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(26, 11, 46, 1);
+}
+
+/* nav styling */
+
+nav>img{
+  display: none;
+}
+
+nav{
+  
+  display: flex;
+   width: 80vw;
+  justify-content: space-between;
+  margin: 10px auto;
+  height:10vh;
+  align-items: center;
+  
+}
+
+nav .menu-list-container{
+ 
+  display: flex;
+  list-style: none;
+  width:20%;
+  
+  justify-content: space-between;
+}
+
+nav .logo{
+  color:white;
+ font-size: 30px;
+ font-weight: 900;
+}
+
+nav .logo span {
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 50%,
+    rgba(145, 0, 248, 1) 100%
+  );
+ 
+  background-clip: text;          
+  color: transparent;            
+}
+
+.menu-list-container{
+  color:white;
+
+}
+
+.menu-list-container li:hover{
+  color:rgb(26, 169, 121);
+  cursor: pointer;
+}
+
+nav button{
+  width: 10vw;
+  height:55%;
+  color: aliceblue;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 50%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  transition: all 0.4s ease;
+}
+nav button:hover{
+  transform: scale(1.1);
+  filter:brightness(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:560px) {
+  nav>ul>li{
+    display: none;
+  }
+  nav  button{
+    display: none;
+  }
+  nav>img{
+  display: inline;
+}
+
+
+  
+}
