@@ -142,15 +142,16 @@ nav button:hover{
 }
 
 .banner-text .short-description{
+  margin-top: 20px;
   color:white;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   
 }
 
 .button-container{
   display: flex;
   flex-direction: row;
-  gap:5px;
+  gap:10px;
 }
 
 .btn1{
@@ -243,7 +244,7 @@ nav button:hover{
   justify-content: space-between;
 }
 .btn1{
-  width:35vw;
+  width:38vw;
 
 }
 .btn2{
