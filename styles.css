@@ -401,9 +401,11 @@ nav button:hover{
 
 .features{
   width:100vw;
+  margin-top:54px;
 }
 .feature-container{
-  width:100%;
+  width:94%;
+  margin:0px auto;
   grid-template-columns: 1fr;
   grid-template-rows: 300px;
   grid-template-areas: "audio"
@@ -413,6 +415,15 @@ nav button:hover{
                        "resources"
   
   ;
+}
+
+.features>p{
+  font-size: 35px;
+}
+
+#feature-card{
+  width:92%;
+  margin:0px auto;
 }
 
 
