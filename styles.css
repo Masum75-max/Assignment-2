@@ -225,7 +225,7 @@ nav button:hover{
 }
 
 .card-container{
-   border: 2px solid red;
+  
   display: grid;
   grid-template-columns:repeat(4,1fr) ;
      gap:40px;
@@ -236,7 +236,7 @@ nav button:hover{
   align-items: center;
   justify-content: center;
   
-   border: 2px solid red;
+
 }
 
 .card-header{
