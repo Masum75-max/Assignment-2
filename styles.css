@@ -33,13 +33,13 @@ nav .menu-list-container{
   justify-content: space-between;
 }
 
-nav .logo{
+.logo{
   color:white;
  font-size: 30px;
  font-weight: 900;
 }
 
-nav .logo span {
+.logo span {
   background: linear-gradient(
     90deg,
     rgba(247, 233, 63, 1) 0%,
@@ -444,7 +444,44 @@ nav button:hover{
   border-radius: 50%;
 }
 
+footer>img{
+  width:98.5vw;
+  height:40vh;
+}
 
+.footer-details{
+
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  width:40vw;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top:492.5vh;
+  right:60vh;
+}
+
+.footer-details ul{
+ 
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width:100%;
+  justify-content: space-between;
+}
+
+.footer-details ul li{
+  display: flex;
+  flex-direction: row;
+  gap:3px;
+  color:white;
+
+}
+
+.footer-details p{
+  color: aliceblue;
+}
 
 
 
@@ -562,6 +599,20 @@ nav button:hover{
   flex-direction: column;
 }
 
+.footer-details{
+  right:29vw;
+  top:503.5vh;
+  display: flex;
+  gap:10px;
+}
+.footer-details ul{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
 
+.footer-details{
+  right:25vw;
+}
   
 }
