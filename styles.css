@@ -115,9 +115,89 @@ nav button:hover{
   top:33vh;
   right: 45%;
 }
+.additional{
+  position:absolute;
+  background-color: rgb(42, 249, 80);
+  border:1px solid black;
+  font-size: 12px;
+  width:40px;
+  padding:5px;
+  border-radius: 10px;
+  right:40%;
+  top:20%;
+}
 
+.banner-text{
+  margin-top:30px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.banner-text .heading{
+   color:white;
+ font-size: 40px;
+ font-weight: 900;
+}
 
+.banner-text .short-description{
+  color:white;
+  margin-bottom: 10px;
+  
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+}
+
+.btn1{
+   width: 13vw;
+  height:30px;
+  color: aliceblue;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 63, 1) 0%,
+    rgba(251, 9, 180, 1) 50%,
+    rgba(145, 0, 248, 1) 100%
+  );
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  transition: all 0.4s ease;
+}
+
+.btn1:hover{
+  transform: scale(1.1);
+  filter:brightness(1.1);
+}
+
+.btn2{
+ width: 13vw;
+  height:30px;
+  color: rgb(19, 162, 72);
+  border:1px solid  rgb(19, 162, 72);
+ background:transparent;
+  
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  transition: all 0.4s ease;
+
+}
+
+.btn2:hover{
+  transform:scale(1.1);
+  background-color: aliceblue;
+  color:black;
+}
 
 
 
@@ -150,6 +230,31 @@ nav button:hover{
   top:42%;
   left:43.5%;
 }
+.additional{
+  top:38%;
+}
+.banner-text {
+  width:80vw;
+  margin:0px auto;
+  
+}
+.button-container{
+  width:100%;
+  justify-content: space-between;
+}
+.btn1{
+  width:35vw;
+
+}
+.btn2{
+  width:33vw;
+}
+.banner-text .short-description{
+  margin-top:17px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
 
   
 }
