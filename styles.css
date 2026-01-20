@@ -143,7 +143,7 @@ nav button:hover{
 
 .banner-text .short-description{
   margin-top: 20px;
-  color:white;
+   color:rgb(127, 124, 124);
   margin-bottom: 30px;
   
 }
@@ -217,7 +217,7 @@ nav button:hover{
 }
 
 .about .first-pera, .second-pera{
-  color:white;
+ color:rgb(127, 124, 124);
   text-align: center;
   width:80%;
   margin: 0px auto;
@@ -247,7 +247,7 @@ nav button:hover{
  
 }
 .card-description{
-  color: aliceblue;
+  color:rgb(127, 124, 124);
 }
 
 .features{
@@ -325,7 +325,7 @@ nav button:hover{
 }
 
   .feature-card-description{
-  color:white;
+   color:rgb(127, 124, 124);
   text-align: center;
 }
 
@@ -356,7 +356,7 @@ nav button:hover{
 
 .episode{
   width:30%;
-   background-color:rgb(39, 18, 95);
+   background-color: rgb(54, 18, 102);
   border-radius: 20px;
   border:0.5px solid black;
 }
@@ -390,6 +390,59 @@ nav button:hover{
   margin-bottom: 20px;
 }
 
+.host{
+ 
+  width:80vw;
+  margin:0px auto;
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+
+.host>p{
+   color:white;
+ font-size: 40px;
+ font-weight: 900;
+ text-align: center;
+ margin-bottom: 20px;
+}
+.intro{
+  display: flex;
+  gap:30px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgb(54, 18, 102);
+  margin-bottom: 20px;
+}
+
+.host-name{
+   color:white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.host-description{
+  color:rgb(173, 168, 168);
+}
+
+.socials{
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+  gap:20px;
+}
+
+.socials>li{
+  display: flex;
+  height:30px;
+  width:30px;
+  align-items: center;
+  justify-content: center;
+  border:1px solid rebeccapurple;
+  border-radius: 50%;
+}
 
 
 
@@ -466,6 +519,7 @@ nav button:hover{
   margin-top:54px;
 }
 .feature-container{
+  gap:20px;
   width:94%;
   margin:0px auto;
   grid-template-columns: 1fr;
@@ -503,6 +557,9 @@ nav button:hover{
   width:90%;
   gap:10px;
   margin:0px auto;
+}
+.intro{
+  flex-direction: column;
 }
 
 
