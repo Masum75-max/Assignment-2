@@ -110,6 +110,11 @@ nav button:hover{
   top:19vh;
   width: 30%;
 }
+#microphone{
+  position: absolute;
+  top:33vh;
+  right: 45%;
+}
 
 
 
@@ -136,6 +141,14 @@ nav button:hover{
   /* border: 2px solid red; */
   top:39%;
   right:35%;
+}
+#microphone{
+  position:absolute;
+    /* border: 2px solid red; */
+  height:9%;
+  width:13%;
+  top:41%;
+  left:43%;
 }
 
   
