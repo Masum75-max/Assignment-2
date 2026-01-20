@@ -250,6 +250,83 @@ nav button:hover{
   color: aliceblue;
 }
 
+.features{
+   /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  width:80vw;
+  gap:10px;
+  margin: 150px auto;
+}
+
+.features>p{
+  /* border: 2px solid red; */
+ 
+   color:white;
+ font-size: 40px;
+ font-weight: 900;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.audio{
+  grid-area: audio;
+}
+.mobile{
+  grid-area: mobile;
+}
+.global{
+  grid-area: global;
+}
+.interviews{
+  grid-area: interviews;
+}
+.resources{
+  grid-area: resources;
+}
+.feature-container{
+  /* border:1px solid red; */
+  width:100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,200px);
+  gap:10px;
+  grid-template-areas: "audio mobile mobile"
+                        "audio global global"
+                      "interviews interviews resources"
+   ;
+}
+
+#feature-card{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: rgb(68, 4, 127);
+  border-radius: 20px;
+  border:0.5px solid black;
+  /* border:1px solid red; */
+  
+  
+}
+ #feature-card>img{
+  height: 30px;
+ }
+ .feature-card-heading{
+  color:aliceblue;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+
+  .feature-card-description{
+  color:white;
+  text-align: center;
+}
+
+
 
 
 
@@ -313,13 +390,29 @@ nav button:hover{
 .card-container{
   width:80%;
   grid-template-columns: repeat(2,1fr);
-  gap:0px;
+  gap:10px;
 }
 
 
 .card-header{
   margin-bottom:6px;
   font-size: 20px;
+}
+
+.features{
+  width:100vw;
+}
+.feature-container{
+  width:100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px;
+  grid-template-areas: "audio"
+                       "global"
+                       "mobile"
+                       "interviews"
+                       "resources"
+  
+  ;
 }
 
 
