@@ -304,12 +304,15 @@ nav button:hover{
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: rgb(68, 4, 127);
+  background-color: rgba(100, 9, 98, 0.775);
   border-radius: 20px;
   border:0.5px solid black;
   /* border:1px solid red; */
+  transition: all 0.4s ease;
   
-  
+}
+#feature-card:hover{
+    transform: scale(1.01);
 }
  #feature-card>img{
   height: 30px;
@@ -326,7 +329,66 @@ nav button:hover{
   text-align: center;
 }
 
+/* episode styling */
 
+.episodes{
+  width:80vw;
+  margin:0px auto;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.episodes>p{
+  color:white;
+ font-size: 40px;
+ font-weight: 900;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.episode-container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+
+.episode{
+  width:30%;
+   background-color:rgb(39, 18, 95);
+  border-radius: 20px;
+  border:0.5px solid black;
+}
+.episode>iframe{
+  width:100%;
+ border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.episode-heading{
+   color:white;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.episode-description{
+  color:rgb(127, 124, 124);
+  margin-top:15px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+.timer{
+  display:flex;
+  gap:4px;
+  color:rgb(17, 192, 17);
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 
 
 
@@ -423,6 +485,23 @@ nav button:hover{
 
 #feature-card{
   width:92%;
+  margin:0px auto;
+}
+
+.episodes{
+  width:100vw;
+}
+
+.episode-container{
+  width:94%;
+  margin:0px auto;
+  display:grid;
+  grid-template-columns: repeat(1,fr);
+}
+
+.episode{
+  width:90%;
+  gap:10px;
   margin:0px auto;
 }
 
