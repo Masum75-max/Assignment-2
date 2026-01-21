@@ -645,11 +645,12 @@ footer>img{
 
 .footer-details{
   right:29vw;
-  top:503.5vh;
+  top:490.5vh;
   display: flex;
   gap:10px;
 }
 .footer-details ul{
+  
   display: flex;
   flex-direction: column;
   gap:10px;
