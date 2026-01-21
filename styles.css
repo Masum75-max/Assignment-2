@@ -644,21 +644,18 @@ footer>img{
 }
 
 .footer-details{
-  right:29vw;
-  top:490.5vh;
+  right:22vw;
+  top:500.5vh;
   display: flex;
   gap:10px;
 }
 .footer-details ul{
   
-  display: flex;
+  display: gird;
   flex-direction: column;
   gap:10px;
 }
 
-.footer-details{
-  right:23vw;
-  top:700vh;
-}
+
   
 }
